@@ -1,0 +1,7 @@
+extends: gplane
+
+env:
+  node: true
+
+rules:
+  prefer-object-spread: 0

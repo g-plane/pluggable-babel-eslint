@@ -1,0 +1,30 @@
+{
+  "name": "pluggable-babel-eslint",
+  "version": "0.0.0",
+  "description": "Pluggable babel-eslint.",
+  "author": "Pig Fang <g-plane@hotmail.com>",
+  "repository": "g-plane/pluggable-babel-eslint",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint . -f=beauty",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/traverse": "^7.1.0",
+    "babel-eslint": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "eslint": "^5.6.1",
+    "eslint-config-gplane": "^3.1.0",
+    "eslint-formatter-beauty": "^3.0.0",
+    "jest": "^23.6.0"
+  },
+  "peerDependencies": {
+    "@babel/parser": "^7.1.2"
+  }
+}

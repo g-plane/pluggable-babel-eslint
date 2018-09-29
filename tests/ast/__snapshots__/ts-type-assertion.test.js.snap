@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`convert type assertion node 1`] = `
+Node {
+  "body": Array [
+    Node {
+      "_babelType": "ExpressionStatement",
+      "end": 4,
+      "expression": Node {
+        "_babelType": "TSTypeAssertion",
+        "end": 4,
+        "expression": Node {
+          "_babelType": "Identifier",
+          "end": 4,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 4,
+              "line": 1,
+            },
+            "identifierName": "b",
+            "start": Position {
+              "column": 3,
+              "line": 1,
+            },
+          },
+          "name": "b",
+          "range": Array [
+            3,
+            4,
+          ],
+          "start": 3,
+          "type": "Identifier",
+        },
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 4,
+            "line": 1,
+          },
+          "start": Position {
+            "column": 0,
+            "line": 1,
+          },
+        },
+        "range": Array [
+          1,
+          4,
+        ],
+        "start": 1,
+        "type": "TSTypeAssertionExpression",
+        "typeAnnotation": Node {
+          "_babelType": "TSTypeReference",
+          "end": 2,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 2,
+              "line": 1,
+            },
+            "start": Position {
+              "column": 0,
+              "line": 1,
+            },
+          },
+          "range": Array [
+            1,
+            2,
+          ],
+          "start": 1,
+          "type": "TSTypeReference",
+          "typeAnnotation": Object {
+            "_babelType": "TSTypeReference",
+            "end": 2,
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 2,
+                "line": 1,
+              },
+              "start": Position {
+                "column": 0,
+                "line": 1,
+              },
+            },
+            "range": Array [
+              1,
+              2,
+            ],
+            "start": 1,
+            "type": "TSTypeReference",
+            "typeName": Node {
+              "_babelType": "Identifier",
+              "end": 2,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 2,
+                  "line": 1,
+                },
+                "identifierName": "a",
+                "start": Position {
+                  "column": 0,
+                  "line": 1,
+                },
+              },
+              "name": "a",
+              "range": Array [
+                1,
+                2,
+              ],
+              "start": 1,
+              "type": "Identifier",
+            },
+          },
+          "typeName": Node {
+            "_babelType": "Identifier",
+            "end": 2,
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 2,
+                "line": 1,
+              },
+              "identifierName": "a",
+              "start": Position {
+                "column": 0,
+                "line": 1,
+              },
+            },
+            "name": "a",
+            "range": Array [
+              1,
+              2,
+            ],
+            "start": 1,
+            "type": "Identifier",
+          },
+        },
+      },
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 4,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        4,
+      ],
+      "start": 0,
+      "type": "ExpressionStatement",
+    },
+  ],
+  "comments": Array [],
+  "directives": undefined,
+  "end": 4,
+  "loc": SourceLocation {
+    "end": Position {
+      "column": 4,
+      "line": 1,
+    },
+    "start": Position {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    4,
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "tokens": Array [
+    Token {
+      "end": 1,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 1,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        1,
+      ],
+      "start": 0,
+      "type": "Punctuator",
+      "value": "<",
+    },
+    Token {
+      "end": 2,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 2,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        1,
+        2,
+      ],
+      "start": 1,
+      "type": "Identifier",
+      "value": "a",
+    },
+    Token {
+      "end": 3,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 3,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 2,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        2,
+        3,
+      ],
+      "start": 2,
+      "type": "Punctuator",
+      "value": ">",
+    },
+    Token {
+      "end": 4,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 4,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 3,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        3,
+        4,
+      ],
+      "start": 3,
+      "type": "Identifier",
+      "value": "b",
+    },
+  ],
+  "type": "Program",
+}
+`;
