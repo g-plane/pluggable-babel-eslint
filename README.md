@@ -36,7 +36,7 @@ Then, configure your `.eslintrc`:
 
 The parser options can be customized in `parserOptions` in `.eslintrc` file. All the options of `babel-eslint` are available and same as here, because `pluggable-babel-eslint` just provides some patches.
 
-And there some options only available in `pluggable-babel-eslint`:
+And there are some options only available in `pluggable-babel-eslint`:
 
 - `plugins`: This is an array which indicates which plugins of Babel will be enabled. Note that you don't need to enable the plugins for experimental ECMAScript features (such as dynamic import, big int, etc). You can add item `typescript` to tell Babel to parse TypeScript code, and the `flow` plugin will be disabled automatically.
 - `excludePlugins`: This is an array which indicates which plugins of Babel will be disabled. One possible use case is that you may not want to use one or more experimental ECMAScript features accidentally in your project. And, if you are going to use angle-bracket-style type assertion in TypeScript, you can disable the `jsx` plugin by adding an item `jsx`. For TypeScript users, you don't need to disable `flow` plugin here.
