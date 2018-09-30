@@ -1,3 +1,9 @@
+## 0.2.1 (2018-09-30)
+
+### Bug fixes
+
+- Fix traversing AST
+
 ## 0.2.0 (2018-09-30)
 
 ### Features
