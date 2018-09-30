@@ -12,7 +12,7 @@ So why not use [typescript-eslint-parser](https://github.com/eslint/typescript-e
 
 ## How can I use it?
 
-Install it first:
+### Installation
 
 Using Yarn:
 
@@ -26,7 +26,9 @@ Using npm:
 npm i -D pluggable-babel-eslint
 ```
 
-Then, configure your `.eslintrc`:
+### Configure ESLint
+
+You can configure your `.eslintrc`:
 
 ```json
 {
@@ -54,6 +56,22 @@ Here is the configuration example (as an `.eslintrc` file):
 ```
 
 For the users of `vue-eslint-parser`, you should put the `parser` field into the `parserOptions` field.
+
+### Configure Babel
+
+> This step is optional.
+
+However, if there is `.babelrc` file or `babel.config.js` file in your project root, you don't need to specfiy plugins to `parserOptions`, because this module will read Babel config.
+
+For example, there is a `.babelrc` file in a project like this:
+
+```json
+{
+  "presets": ["@babel/preset-typescript"]
+}
+```
+
+At this time, you don't need to configure `parserOptions` of ESLint, and `babel-eslint` will parse your TypeScript code.
 
 ## Are there any known issues?
 
