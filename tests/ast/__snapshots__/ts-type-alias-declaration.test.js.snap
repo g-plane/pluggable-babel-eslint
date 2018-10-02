@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`node type conversion 1`] = `
+Node {
+  "body": Array [
+    Node {
+      "_babelType": "TSTypeAliasDeclaration",
+      "declarations": Array [
+        Object {
+          "end": 10,
+          "id": Node {
+            "_babelType": "Identifier",
+            "end": 6,
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 6,
+                "line": 1,
+              },
+              "identifierName": "a",
+              "start": Position {
+                "column": 5,
+                "line": 1,
+              },
+            },
+            "name": "a",
+            "range": Array [
+              5,
+              6,
+            ],
+            "start": 5,
+            "type": "Identifier",
+          },
+          "init": Node {
+            "_babelType": "TSTypeReference",
+            "end": 10,
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 10,
+                "line": 1,
+              },
+              "start": Position {
+                "column": 9,
+                "line": 1,
+              },
+            },
+            "range": Array [
+              9,
+              10,
+            ],
+            "start": 9,
+            "type": "TSTypeReference",
+            "typeName": Node {
+              "_babelType": "Identifier",
+              "end": 10,
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 10,
+                  "line": 1,
+                },
+                "identifierName": "b",
+                "start": Position {
+                  "column": 9,
+                  "line": 1,
+                },
+              },
+              "name": "b",
+              "range": Array [
+                9,
+                10,
+              ],
+              "start": 9,
+              "type": "Identifier",
+            },
+          },
+          "loc": Object {
+            "end": Position {
+              "column": 10,
+              "line": 1,
+            },
+            "start": Object {
+              "column": 5,
+              "line": 1,
+            },
+          },
+          "range": Array [
+            5,
+            10,
+          ],
+          "start": 5,
+          "type": "VariableDeclarator",
+          "typeParameters": undefined,
+        },
+      ],
+      "end": 10,
+      "id": Node {
+        "_babelType": "Identifier",
+        "end": 6,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 6,
+            "line": 1,
+          },
+          "identifierName": "a",
+          "start": Position {
+            "column": 5,
+            "line": 1,
+          },
+        },
+        "name": "a",
+        "range": Array [
+          5,
+          6,
+        ],
+        "start": 5,
+        "type": "Identifier",
+      },
+      "kind": "type",
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 10,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        10,
+      ],
+      "start": 0,
+      "type": "VariableDeclaration",
+      "typeAnnotation": Node {
+        "_babelType": "TSTypeReference",
+        "end": 10,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 10,
+            "line": 1,
+          },
+          "start": Position {
+            "column": 9,
+            "line": 1,
+          },
+        },
+        "range": Array [
+          9,
+          10,
+        ],
+        "start": 9,
+        "type": "TSTypeReference",
+        "typeName": Node {
+          "_babelType": "Identifier",
+          "end": 10,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 10,
+              "line": 1,
+            },
+            "identifierName": "b",
+            "start": Position {
+              "column": 9,
+              "line": 1,
+            },
+          },
+          "name": "b",
+          "range": Array [
+            9,
+            10,
+          ],
+          "start": 9,
+          "type": "Identifier",
+        },
+      },
+      "typeParameters": undefined,
+    },
+  ],
+  "comments": Array [],
+  "directives": undefined,
+  "end": 10,
+  "loc": SourceLocation {
+    "end": Position {
+      "column": 10,
+      "line": 1,
+    },
+    "start": Position {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    10,
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "tokens": Array [
+    Token {
+      "end": 4,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 4,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        4,
+      ],
+      "start": 0,
+      "type": "Identifier",
+      "value": "type",
+    },
+    Token {
+      "end": 6,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 6,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 5,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        5,
+        6,
+      ],
+      "start": 5,
+      "type": "Identifier",
+      "value": "a",
+    },
+    Token {
+      "end": 8,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 8,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 7,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        7,
+        8,
+      ],
+      "start": 7,
+      "type": "Punctuator",
+      "value": "=",
+    },
+    Token {
+      "end": 10,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 10,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 9,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        9,
+        10,
+      ],
+      "start": 9,
+      "type": "Identifier",
+      "value": "b",
+    },
+  ],
+  "type": "Program",
+}
+`;

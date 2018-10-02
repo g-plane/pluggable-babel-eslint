@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`node type conversion 1`] = `
+Node {
+  "body": Array [
+    Node {
+      "_babelType": "ClassDeclaration",
+      "body": Node {
+        "_babelType": "ClassBody",
+        "body": Array [],
+        "end": 35,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 35,
+            "line": 1,
+          },
+          "start": Position {
+            "column": 33,
+            "line": 1,
+          },
+        },
+        "range": Array [
+          33,
+          35,
+        ],
+        "start": 33,
+        "type": "ClassBody",
+      },
+      "end": 35,
+      "id": Node {
+        "_babelType": "Identifier",
+        "end": 9,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 9,
+            "line": 1,
+          },
+          "identifierName": "Foo",
+          "start": Position {
+            "column": 6,
+            "line": 1,
+          },
+        },
+        "name": "Foo",
+        "range": Array [
+          6,
+          9,
+        ],
+        "start": 6,
+        "type": "Identifier",
+      },
+      "implements": Array [
+        Node {
+          "_babelType": "TSExpressionWithTypeArguments",
+          "end": 33,
+          "expression": Node {
+            "_babelType": "Identifier",
+            "end": 30,
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 30,
+                "line": 1,
+              },
+              "identifierName": "Component",
+              "start": Position {
+                "column": 21,
+                "line": 1,
+              },
+            },
+            "name": "Component",
+            "range": Array [
+              21,
+              30,
+            ],
+            "start": 21,
+            "type": "Identifier",
+          },
+          "id": Node {
+            "_babelType": "Identifier",
+            "end": 30,
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 30,
+                "line": 1,
+              },
+              "identifierName": "Component",
+              "start": Position {
+                "column": 21,
+                "line": 1,
+              },
+            },
+            "name": "Component",
+            "range": Array [
+              21,
+              30,
+            ],
+            "start": 21,
+            "type": "Identifier",
+          },
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 33,
+              "line": 1,
+            },
+            "start": Position {
+              "column": 21,
+              "line": 1,
+            },
+          },
+          "range": Array [
+            21,
+            33,
+          ],
+          "start": 21,
+          "type": "ClassImplements",
+          "typeParameters": Node {
+            "_babelType": "TSTypeParameterInstantiation",
+            "end": 33,
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 33,
+                "line": 1,
+              },
+              "start": Position {
+                "column": 30,
+                "line": 1,
+              },
+            },
+            "params": Array [
+              Node {
+                "_babelType": "TSTypeReference",
+                "end": 32,
+                "loc": SourceLocation {
+                  "end": Position {
+                    "column": 32,
+                    "line": 1,
+                  },
+                  "start": Position {
+                    "column": 31,
+                    "line": 1,
+                  },
+                },
+                "range": Array [
+                  31,
+                  32,
+                ],
+                "start": 31,
+                "type": "TSTypeReference",
+                "typeName": Node {
+                  "_babelType": "Identifier",
+                  "end": 32,
+                  "loc": SourceLocation {
+                    "end": Position {
+                      "column": 32,
+                      "line": 1,
+                    },
+                    "identifierName": "T",
+                    "start": Position {
+                      "column": 31,
+                      "line": 1,
+                    },
+                  },
+                  "name": "T",
+                  "range": Array [
+                    31,
+                    32,
+                  ],
+                  "start": 31,
+                  "type": "Identifier",
+                },
+              },
+            ],
+            "range": Array [
+              30,
+              33,
+            ],
+            "start": 30,
+            "type": "TSTypeParameterInstantiation",
+          },
+        },
+      ],
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 35,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        35,
+      ],
+      "start": 0,
+      "superClass": null,
+      "type": "ClassDeclaration",
+    },
+  ],
+  "comments": Array [],
+  "directives": undefined,
+  "end": 35,
+  "loc": SourceLocation {
+    "end": Position {
+      "column": 35,
+      "line": 1,
+    },
+    "start": Position {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    35,
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "tokens": Array [
+    Token {
+      "end": 5,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 5,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        5,
+      ],
+      "start": 0,
+      "type": "Keyword",
+      "value": "class",
+    },
+    Token {
+      "end": 9,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 9,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 6,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        6,
+        9,
+      ],
+      "start": 6,
+      "type": "Identifier",
+      "value": "Foo",
+    },
+    Token {
+      "end": 20,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 20,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 10,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        10,
+        20,
+      ],
+      "start": 10,
+      "type": "Identifier",
+      "value": "implements",
+    },
+    Token {
+      "end": 30,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 30,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 21,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        21,
+        30,
+      ],
+      "start": 21,
+      "type": "Identifier",
+      "value": "Component",
+    },
+    Token {
+      "end": 31,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 31,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 30,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        30,
+        31,
+      ],
+      "start": 30,
+      "type": "Punctuator",
+      "value": "<",
+    },
+    Token {
+      "end": 32,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 32,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 31,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        31,
+        32,
+      ],
+      "start": 31,
+      "type": "Identifier",
+      "value": "T",
+    },
+    Token {
+      "end": 33,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 33,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 32,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        32,
+        33,
+      ],
+      "start": 32,
+      "type": "Punctuator",
+      "value": ">",
+    },
+    Token {
+      "end": 34,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 34,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 33,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        33,
+        34,
+      ],
+      "start": 33,
+      "type": "Punctuator",
+      "value": "{",
+    },
+    Token {
+      "end": 35,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 35,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 34,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        34,
+        35,
+      ],
+      "start": 34,
+      "type": "Punctuator",
+      "value": "}",
+    },
+  ],
+  "type": "Program",
+}
+`;

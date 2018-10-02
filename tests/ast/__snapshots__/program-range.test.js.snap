@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`empty body 1`] = `
+Node {
+  "body": Array [],
+  "comments": Array [
+    Object {
+      "end": 5,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 5,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        5,
+      ],
+      "start": 0,
+      "type": "Line",
+      "value": "abc",
+    },
+  ],
+  "directives": undefined,
+  "end": 5,
+  "loc": SourceLocation {
+    "end": Position {
+      "column": 5,
+      "line": 1,
+    },
+    "start": Position {
+      "column": 5,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    5,
+    5,
+  ],
+  "sourceType": "module",
+  "start": 5,
+  "tokens": Array [],
+  "type": "Program",
+}
+`;
+
+exports[`non-empty body 1`] = `
+Node {
+  "body": Array [
+    Node {
+      "_babelType": "ExpressionStatement",
+      "end": 9,
+      "expression": Node {
+        "_babelType": "Identifier",
+        "end": 9,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 3,
+            "line": 2,
+          },
+          "identifierName": "abc",
+          "start": Position {
+            "column": 0,
+            "line": 2,
+          },
+        },
+        "name": "abc",
+        "range": Array [
+          6,
+          9,
+        ],
+        "start": 6,
+        "type": "Identifier",
+      },
+      "leadingComments": Array [
+        Object {
+          "end": 5,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 5,
+              "line": 1,
+            },
+            "start": Position {
+              "column": 0,
+              "line": 1,
+            },
+          },
+          "range": Array [
+            0,
+            5,
+          ],
+          "start": 0,
+          "type": "Line",
+          "value": "abc",
+        },
+      ],
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 3,
+          "line": 2,
+        },
+        "start": Position {
+          "column": 0,
+          "line": 2,
+        },
+      },
+      "range": Array [
+        6,
+        9,
+      ],
+      "start": 6,
+      "type": "ExpressionStatement",
+    },
+  ],
+  "comments": Array [
+    Object {
+      "end": 5,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 5,
+          "line": 1,
+        },
+        "start": Position {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        5,
+      ],
+      "start": 0,
+      "type": "Line",
+      "value": "abc",
+    },
+  ],
+  "directives": undefined,
+  "end": 9,
+  "loc": SourceLocation {
+    "end": Position {
+      "column": 3,
+      "line": 2,
+    },
+    "start": Position {
+      "column": 0,
+      "line": 2,
+    },
+  },
+  "range": Array [
+    6,
+    9,
+  ],
+  "sourceType": "module",
+  "start": 0,
+  "tokens": Array [
+    Token {
+      "end": 9,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 3,
+          "line": 2,
+        },
+        "start": Position {
+          "column": 0,
+          "line": 2,
+        },
+      },
+      "range": Array [
+        6,
+        9,
+      ],
+      "start": 6,
+      "type": "Identifier",
+      "value": "abc",
+    },
+  ],
+  "type": "Program",
+}
+`;

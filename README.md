@@ -77,8 +77,10 @@ At this time, you don't need to configure `parserOptions` of ESLint, and `babel-
 
 Because of the limitation of Babel itself, not all TypeScript code can be parsed (such as `namespace`). And some rules of [eslint-plugin-typescript](https://github.com/nzakas/eslint-plugin-typescript) can't work.
 
-- `typescript/no-namespace`: Babel doesn't support TypeScript's namesapce.
-- `typescript/prefer-namespace-keyword`: Babel doesn't support TypeScript's namesapce.
+- `typescript/adjacent-overload-signatures`: Babel can't parse TypeScript class methods overload.
+- `typescript/no-parameter-properties`: It can report linting errors, but the location may be wrong.
+- `typescript/no-type-alias`: When your code contains intersection type or union type with literal type, and error will be occurred. This issue is from `eslint-plugin-typescript` itself, not the parser. (See: https://github.com/nzakas/eslint-plugin-typescript/pull/137)
+- `typescript/type-annotation-spacing`: It cannot work in some cases (such as parameters of a function).
 
 Note that other rules which haven't been listed above also may not work well, so be cautious. And any contributions are welcome.
 
