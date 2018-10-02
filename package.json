@@ -1,6 +1,6 @@
 {
   "name": "pluggable-babel-eslint",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Pluggable babel-eslint.",
   "author": "Pig Fang <g-plane@hotmail.com>",
   "repository": "g-plane/pluggable-babel-eslint",
