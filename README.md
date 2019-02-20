@@ -1,5 +1,7 @@
 # pluggable-babel-eslint ![](https://flat.badgen.net/travis/g-plane/pluggable-babel-eslint) ![](https://flat.badgen.net/npm/v/pluggable-babel-eslint) ![](https://flat.badgen.net/npm/dm/pluggable-babel-eslint)
 
+**Thanks for using this package! Babel-eslint supports TypeScript now and you should consider using it.**
+
 As we know, Babel is a parser which contains a plugin system. However, the [babel-eslint](https://github.com/babel/babel-eslint) doesn't let us customize which plugins can be loaded.
 
 This module is NOT a fork of babel-eslint. It just provides some patches to `babel-eslint` and `@babel/parser` (aka. Babylon).
